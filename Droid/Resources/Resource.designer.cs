@@ -3054,6 +3054,9 @@ namespace AdMobTest.Droid
 			// aapt resource value: 0x7f070003
 			public const int decline = 2131165187;
 			
+			// aapt resource value: 0x7f070030
+			public const int interstetial_ad_unit_id = 2131165232;
+			
 			// aapt resource value: 0x7f070009
 			public const int mr_button_content_description = 2131165193;
 			
