@@ -4,6 +4,8 @@ using Xamarin.Forms;
 
 namespace AdMobTest
 {
+	public class BannerView : View {}
+
 	public class App : Application
 	{
 		public App()
@@ -19,27 +21,13 @@ namespace AdMobTest
 						new Label {
 							HorizontalTextAlignment = TextAlignment.Center,
 							Text = "Welcome to Xamarin Forms!"
-						}
+						},
+						new BannerView()
 					}
 				}
 			};
 
 			MainPage = new NavigationPage(content);
-		}
-
-		protected override void OnStart()
-		{
-			// Handle when your app starts
-		}
-
-		protected override void OnSleep()
-		{
-			// Handle when your app sleeps
-		}
-
-		protected override void OnResume()
-		{
-			// Handle when your app resumes
 		}
 	}
 }
