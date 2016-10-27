@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobTest", "AdMobTest\AdMobTest.csproj", "{F82AD761-6E88-4917-9006-6A2726F6BBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobTest.Droid", "Droid\AdMobTest.Droid.csproj", "{84C829BE-5ECB-44FD-A6EA-BA161386FFE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82AD761-6E88-4917-9006-6A2726F6BBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82AD761-6E88-4917-9006-6A2726F6BBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82AD761-6E88-4917-9006-6A2726F6BBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82AD761-6E88-4917-9006-6A2726F6BBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C829BE-5ECB-44FD-A6EA-BA161386FFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C829BE-5ECB-44FD-A6EA-BA161386FFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C829BE-5ECB-44FD-A6EA-BA161386FFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C829BE-5ECB-44FD-A6EA-BA161386FFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
